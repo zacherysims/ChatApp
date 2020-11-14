@@ -3,10 +3,11 @@
     "version": "0.0.1",
     "description": "A chat app for Seng513",
     "dependencies": {
+        "bootstrap": "^4.5.3",
         "express": "^4.15.2",
         "socket.io": "^3.0.0"
     },
     "scripts": {
-      "start": "node index.js"
+        "start": "node index.js"
     }
 }
