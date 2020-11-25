@@ -24,7 +24,7 @@ io.on('connection', (socket) => {
         }
     }
     else {
-        socket.username = randomInt(1000).toString();
+        socket.username = Math.floor(Math.random() * 1000).toString();
     }
 
     socket.on('add user', () => {
